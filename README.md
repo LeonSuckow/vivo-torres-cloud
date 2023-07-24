@@ -1,6 +1,6 @@
 # Vivo Torres Cloud - E-Learning
 
-![Vivo Torres Cloud](vivo-torres-cloud.jpg)
+![Vivo Torres Cloud](https://github.com/LeonSuckow/vivo-torres-cloud/blob/main/src/assets/images/vivo-torres-cloud.png?raw=true)
 
 ## Overview
 
