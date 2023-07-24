@@ -6,6 +6,9 @@
 
 Uma landing page para o projeto torres da GP Strategies Corporation mostrando modelos de serviços oferecidos pela Vivo Cloud no contexto de Cloud Computing.
 
+Site demonstrativo https://leonsuckow.github.io/vivo-torres-cloud/
+
+
 ## Desafio
 
 Desenvolver em `2 dias`
