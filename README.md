@@ -1,39 +1,46 @@
-# SCORM React 1.0
+# Vivo Torres Cloud - E-Learning
 
-Projeto de SCORM inicial utilizando React (Já testado no SCORM Cloud).
+![Vivo Torres Cloud](vivo-torres-cloud.jpg)
 
-## Requisitos
+## Overview
 
-- NodeJS >=14
-- Npm ou Yarn >=8
+Uma landing page para o projeto torres da GP Strategies Corporation mostrando modelos de serviços oferecidos pela Vivo Cloud no contexto de Cloud Computing.
 
-## Scripts disponíveis
+## Desafio
 
-Inicialmente, no diretório do projeto, antes de mais nada instale todas as dependências, rodando: 
+Desenvolver em `2 dias`
 
-### `npm install`
+## Conteúdo
 
-No diretorio do projeto, você pode rodar:
+1. **Início**
+   - A revolução da TI e a Cloud Computing
 
-### `npm start`
+2. **Os tipos de Cloud Computing**
+   - Modelos de implantação:
+     - Cloud Pública
+     - Cloud Privada
+     - Cloud Híbrida
+   - Principais benefícios da Cloud Híbrida
 
-Roda o app em modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador.
+3. **Modelos de prestação de serviço**
+   - SaaS - Software como Serviço
+   - PaaS - Plataforma como Serviço
+   - IaaS - Infraestrutura como Serviço
+   - Principais benefícios de cada modalidade
 
-A página irá recarregar quando você realizar alterações.\
-Talves você veja erros de ES Lint no console.
+4. **Exemplos de aplicação**
+   - Casos de empresas que adotaram soluções em nuvem
 
-### `npm test`
+5. **Vivo Cloud**
+   - Soluções completas para empresas de todos os portes
+   - Oferta multi-cloud com serviços de nuvem pública (AWS Cloud, Google Cloud, Microsoft Azure, Huawei Cloud, IBM Cloud e Oracle Cloud) e Vivo Cloud Plus (VCP)
+   - Benefícios de escolher os serviços Vivo Cloud
 
-Roda o test runner no modo de escuta interativa.\
-Veja mais sobre [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações (Inglês).
+6. **Serviços oferecidos**
+   - Serviços de Nuvem Pública e Privada
+   - Vivo Cloud Server
+   - Serviços de Colaboração
+   - Serviços Profissionais e Gerenciados
 
-### `npm run build`
-
-Roda o app para produção na pasta `build`.\
-Isso mescla todos os arquivos, tornando o projeto OnePage, melhorando a performance (e no SCORM Cloud só funciona assim).
-
-O projeto é corretamente minificado.\
-Seu app está pronto para ser rodado!
-
-Veja sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
+7. **Diferenciais das soluções Vivo**
+   - Atendimento personalizado e suporte durante todo o ciclo do projeto
