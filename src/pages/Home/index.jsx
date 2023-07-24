@@ -35,7 +35,7 @@ import privateServicesImg from '../../assets/images/private-services.png';
 import manInPhoneImg from '../../assets/images/man-in-phone.png';
 import assinaturaImg from '../../assets/images/assinatura.png';
 import vivinhoImg from '../../assets/images/vivinho.png';
-import video from '../../assets/videos/cloud-video.mp4';
+// import video from '../../assets/videos/cloud-video.mp4';
 
 
 import { data as typesCloudComputingData } from "../../data/TabViewModalidade.js";
@@ -53,8 +53,6 @@ import { data as VerticalTabViewWithImageData } from "../../data/VerticalTabview
 
 import './styles.css'
 const CloudPage = () => {
-  console.log(FlipCardQuestions)
-
   return (
     <>
       <Section bg={bgHeaderImg} id="start" customClass='header-section'>
@@ -69,7 +67,8 @@ const CloudPage = () => {
               <p className='p-2'>Essa mudança de paradigma impulsionou uma grande <strong>oportunidade de geração de novos negócios</strong>, mas, antes de entender o conceito de Cloud, vamos explorar um pouco o contexto do mercado e o potencial para as empresas.</p>
             </div>
             <div className='content-right'>
-              <Video source={video} />
+              {/* <Video source={video} /> */}
+              <Video source={null} />
               <UsabilityHelp img={handClickWhiteImg}>
                 Para compreender melhor essa <br /> transformação digital, assista ao vídeo.
               </UsabilityHelp>
