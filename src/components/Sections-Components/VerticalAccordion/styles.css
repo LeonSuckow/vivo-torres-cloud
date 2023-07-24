@@ -1,0 +1,71 @@
+.vertical-accordion {
+    width: 100%;
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.vertical-accordion .accordion-wrapper {
+    width: 100%;
+}
+
+.vertical-accordion .accordion-wrapper .accordion {
+    margin-bottom: .5rem;
+}
+
+.vertical-accordion .accordion-wrapper .accordion .header {
+    height: 5.5rem;
+    background-color: rgba(255,255,255,.7);
+    font-family: officina-bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 0 1.5rem;
+    background-color: #660099;
+    transition: background-color 0.4s
+}
+
+.vertical-accordion .accordion-wrapper .accordion.visualized .header {
+    background-color: #83D300;
+}
+
+/* .vertical-accordion .accordion-wrapper .accordion .header:hover {
+    background-color: #83D300;
+} */
+
+.vertical-accordion .accordion-wrapper .accordion .header span {
+    font-weight: 700;
+}
+
+.vertical-accordion .accordion-wrapper .accordion .content {
+    background-color: #BD4AFF;
+    font-size: 1rem;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: ease-out .5s;
+}
+
+.vertical-accordion .accordion-wrapper .accordion.show .header {
+    background-color: #660099;
+}
+
+.vertical-accordion .accordion-wrapper .accordion.show .content {
+    padding: .5rem;
+    opacity: 1;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .vertical-accordion {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 12rem;
+    }
+}

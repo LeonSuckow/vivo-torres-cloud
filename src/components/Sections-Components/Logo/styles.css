@@ -1,0 +1,11 @@
+.logo {
+    width: 100%;
+}
+
+.logo  img {
+    position: absolute;
+    width: 100%;
+    max-width: 29.125rem;
+    top: 14.5rem;
+    left: 14.625rem;
+}

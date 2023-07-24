@@ -1,0 +1,49 @@
+.vertical-tab-view-wrapper {
+    margin: 5rem 0;
+    color: #000;
+}
+
+.vertical-tab-view-wrapper .tab-icons {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.vertical-tab-view-wrapper .tab-icons .icon {
+    background-color: #FF98B3;
+    color: #fff;
+    font-family: vivoType-Bold;
+    font-weight: 700;
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 3.5rem;
+    display: flex;
+    width: 100%;
+    max-width: 15.3125rem;
+    height: 4.1875rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 16px #BD4AFF;
+    transition: background-color 0.4s;
+}
+
+.vertical-tab-view-wrapper .tab-icons .icon.active,  .vertical-tab-view-wrapper .tab-icons .icon:hover{
+    background-color: #EC3D7E;
+} 
+
+
+.vertical-tab-view-wrapper .content h2{
+    text-align: center;
+    color: #370054;
+}
+
+.vertical-tab-view-wrapper .content .tab-paragraph{
+    text-align: center;
+    color: #370054;
+    max-width: 91.5rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
